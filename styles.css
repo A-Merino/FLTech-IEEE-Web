@@ -229,10 +229,6 @@ page-content div#carousel img {
     max-height: 500px;
 }
 
-page-content carousel-container {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}
-
 page-content div h1, page-content div p {
     margin-inline: 2rem;
     padding-inline: 1rem;
@@ -357,6 +353,15 @@ quarter-page txt {
     padding-inline: 3rem;
     font-size: 1.2rem;
 }
+
+
+
+#carousel-holder {
+    overflow: hidden;
+}
+
+
+
 
 @media (max-width: 600px) {
     profile-list {
