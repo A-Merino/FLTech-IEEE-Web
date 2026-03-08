@@ -18,7 +18,7 @@ $(function() {
                     <location class="notranslate>${et.location}</location>
                     <datetime class="notranslate">${et.date}<br/>${et.time}</datetime>
                     </event></a>`
-                    
+
                 // the precision of the comparision is by day 
                 // if in the past (comparing seconds since 1970) then add to past
                 if (now > date){
@@ -28,7 +28,8 @@ $(function() {
                 }
                     
             }) 
-            $("#Upcoming").html(upcomingHTML);
+            // insert into the html of the event lists
+            $("#Upcoming").html(upcomingHTML); 
             $("#Past").html(pastHTML);
         });
     })();

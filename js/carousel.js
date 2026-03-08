@@ -53,9 +53,14 @@ function refreshCarousel() {
     // go through each image and get width
     for (let i = 0; i < carousel_pos; i++){
         offset += carousel_children[i].width + 8
+
+        
+    }
+    let slide = 200;
+    if (offset !== 0) {
+        slide = (carousel.offsetWidth * 0.5) - offset - (carousel_children[carousel_pos].offsetWidth * 0.5);
     }
     // calculate how much to move
-    let slide = (carousel.offsetWidth * 0.5) - offset - (carousel_children[carousel_pos].offsetWidth * 0.5);
     carousel.style = `transform: translate(${slide}px);`
 
     
