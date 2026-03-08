@@ -1,0 +1,39 @@
+[
+    {
+        "header": "Counselor",
+        "people":[{
+            "name":"Abdullah Aydeger",
+            "title":"Counselor",
+            "phone":"",
+            "email":"aaydeger@fit.edu",
+            "image":"./../images/people/a-aydeger.png",
+            "alt":""
+        }]
+    },{
+        "header": "Website Administrators",
+        "people":[
+            {
+                "name":"Alexander Lanza",
+                "title":"Website Administrator",
+                "phone":"+1 (321) 372-4067",
+                "email":"alanza2024@my.fit.edu",
+                "image":"./../images/people/a-lanza26.png",
+                "alt":""
+            },{
+                "name":"Alex Merino",
+                "title":"Website Administrator",
+                "phone":"+1 (863) 557-3138",
+                "email":"amerino2022@my.fit.edu",
+                "image":"./../images/null-user.png",
+                "alt":""
+            },{
+                "name":"Derek May",
+                "title":"Website Administrator",
+                "phone":"+1 (516) 514-2358",
+                "email":"alanza2024@my.fit.edu",
+                "image":"./../images/null-user.png",
+                "alt":""
+            }
+        ]
+    }
+]

@@ -8,10 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link href='https://fonts.googleapis.com/css?family=Open%20Sans' type='text/css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"
+            integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
+    <script type="" src="js/script.js" defer></script>
+    <script type="" src="js/carousel.js" defer></script>
 
-    
 </head>
 <body>
+    <div id="loading">
+        <img src="./images/ieee-fit-white.png"/>
+    </div>
     <div id="google_translate_element"></div>
     <dropdown class="" style="transform: translate(0px, -190px);">
         <ul>
@@ -45,51 +53,10 @@
                 </arrow-container>
             </gradient>
             <carousel-container style="z-index: 99;">
-                <div id="carousel" style="transform: translate(-56px);">
-                    <img alt="" src="./images/groups/26-group-photo-0.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-1.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-2.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-3.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-4.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-5.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-6.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-7.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-8.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-9.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-10.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-11.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-12.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-13.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-14.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-15.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-16.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-17.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-18.png" width="auto" height="300">
-                    <img alt="" src="./images/groups/26-group-photo-19.png" width="auto" height="300">
-                    
-                    <img alt="" src="./images/groups/group-photo-16.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-1.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-17.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-2.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-3.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-4.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-5.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-6.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-7.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-8.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-9.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-10.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-11.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-12.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-13.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-14.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-15.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-16.jpg" width="auto" height="300">
-                    <img alt="" src="./images/groups/group-photo-1.jpg" width="auto" height="300">
-                </div>
+                <div id="carousel"></div>
             </carousel-container>
         </div>
-        <p>
+        <p id="main-blurb">
             &nbsp&nbsp&nbsp&nbspOur primary objective is to help educate and refine students' skills in engineering, especially in the fields of Computer Science, Electrical Engineering, and Mechatronics. We pride ourselves on our desire to improve the world around us through the use of practical, functional, and sustainable engineering. We are also a great resource for networking opportunities. By utilizing our parent organisation's resources, we help broaden our reach into a plethora of different industries.
         </p>
         <h1>Also see IEEE's Melbourne Section</h1>
@@ -115,7 +82,5 @@
           new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
         }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
-    <script src="script.js" defer></script>
 </body>
 </html>

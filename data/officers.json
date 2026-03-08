@@ -1,0 +1,109 @@
+[
+    {   "year": "2025-2026",
+        "officers": [
+            {
+                "name":"Sloan Hatter",
+                "title":"Chair",
+                "phone":"+1 (570) 728-1264",
+                "email":"shatter2022@my.fit.edu",
+                "image":"./../images/people/s-hatter26.png",
+                "alt":""
+            },{
+                "name":"Ryan Cofer",
+                "title":"Vice Chair",
+                "phone":"+1 (706) 405-0140",
+                "email":"rcofer2022@my.fit.edu",
+                "image":"./../images/people/r-cofer26.png",
+                "alt":""
+            },{
+                "name":"Hall-Burns",
+                "title":"Treasurer",
+                "phone":"+1 (937) 701-4505",
+                "email":"ihallburns2023@my.fit.edu",
+                "image":"./../images/people/i-hallburns26.png",
+                "alt":""
+            },{
+                "name":"Adrianna Agustin",
+                "title":"Secretary",
+                "phone":"+1 (787) 512-2112",
+                "email":"agustina2015@my.fit.edu",
+                "image":"./../images/people/a-agustin26.png",
+                "alt":""
+            },{
+                "name":"Noah Sliwa",
+                "title":"Public Relations",
+                "phone":"+1 (321) 258-5511",
+                "email":"nsliwa2024@my.fit.edu",
+                "image":"./../images/people/n-sliwa26.png",
+                "alt":""
+            },{
+                "name":"Alexander Lanza",
+                "title":"SGA Representative",
+                "phone":"+1 (321) 372-4067",
+                "email":"alanza2024@my.fit.edu",
+                "image":"./../images/people/a-lanza26.png",
+                "alt":""
+            },{
+                "name":"Kyle Hertwig",
+                "title":"Hardware Competition Chair",
+                "phone":"+1 (803) 476-2242",
+                "email":"khertwig2023@my.fit.edu",
+                "image":"./../images/people/k-hertwig26.png",
+                "alt":""
+            }
+        ]
+    },{   "year": "2026-2027",
+        "officers": [
+            {
+                "name":"Ryan Cofer",
+                "title":"Chair",
+                "phone":"+1 (706) 405-0140",
+                "email":"rcofer2022@my.fit.edu",
+                "image":"./../images/people/r-cofer26.png",
+                "alt":""
+            },{
+                "name":"Alexander Lanza",
+                "title":"Vice Chair",
+                "phone":"+1 (321) 372-4067",
+                "email":"alanza2024@my.fit.edu",
+                "image":"./../images/people/a-lanza26.png",
+                "alt":""
+            },{
+                "name":"Hall-Burns",
+                "title":"Treasurer",
+                "phone":"+1 (937) 701-4505",
+                "email":"ihallburns2023@my.fit.edu",
+                "image":"./../images/people/i-hallburns26.png",
+                "alt":""
+            },{
+                "name":"Noah Sliwa",
+                "title":"Secretary",
+                "phone":"+1 (321) 258-5511",
+                "email":"nsliwa2024@my.fit.edu",
+                "image":"./../images/people/n-sliwa26.png",
+                "alt":""
+            },{
+                "name":"Robert Garner",
+                "title":"Public Relations",
+                "phone":"+1 (570) 231-3533",
+                "email":"rgarner2024@my.fit.edu",
+                "image":"./../images/people/r-garner26.png",
+                "alt":""
+            },{
+                "name":"Devang Singh",
+                "title":"SGA Representative",
+                "phone":"+1 (321) 381-8884",
+                "email":"dsingh2024@my.fit.edu",
+                "image":"./../images/people/d-singh26.png",
+                "alt":""
+            },{
+                "name":"Kyle Hertwig",
+                "title":"Hardware Competition Chair",
+                "phone":"+1 (803) 476-2242",
+                "email":"khertwig2023@my.fit.edu",
+                "image":"./../images/people/k-hertwig26.png",
+                "alt":""
+            }
+        ]
+    }
+]
