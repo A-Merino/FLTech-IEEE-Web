@@ -56,7 +56,8 @@ function refreshCarousel() {
 
         
     }
-    let slide = 200;
+    // window size variable starting point for first load
+    let slide = window.outerWidth / 8;
     if (offset !== 0) {
         slide = (carousel.offsetWidth * 0.5) - offset - (carousel_children[carousel_pos].offsetWidth * 0.5);
     }
