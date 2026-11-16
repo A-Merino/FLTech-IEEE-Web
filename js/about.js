@@ -15,8 +15,8 @@ $(function () {
                         <img alt="${person.alt}" src="${person.image}">
                         <name class="notranslate">${person.name}</name>
                         <group-title>${person.title}</group-title>
-                        <a href="tel:${person.phone.replace(" ", "").replace("(", "").replace(")", "")}"><phone>${person.phone}</phone></a>
-                        <a href="mailto:${person.email}"><email>${person.email}</email></a>
+                        // <a href="tel:${person.phone.replace(" ", "").replace("(", "").replace(")", "")}"><phone>${person.phone}</phone></a>
+                        // <a href="mailto:${person.email}"><email>${person.email}</email></a>
                     </profile-card>
                     `;
                 });
